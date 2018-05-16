@@ -3,6 +3,9 @@ language: c
 compiler:
   - gcc
   - clang
+
+runtime:
+  nodePool: dynamic__x86_64__CentOS_7__c4_large
   
 build: 
 
