@@ -13,11 +13,3 @@ build:
     - automake --version #1:1.15*
     - ccache --version #3.1*
     #- libssl-dev #1.0.*
-    - docker pull shippabledocker/sample_node_pvt:ecr
-
-integrations:
-    
-  hub:
- #Docker integration
-    - integrationName: ship-docker
-      type: dockerRegistryLogin
